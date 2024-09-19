@@ -2,11 +2,8 @@
 Franchise Connect Platform by Senan Otsuka 
 
 # 2. Project Overview
-Your project's elevator pitch
-Answer the following three questions in a single sentence:
-Who are you helping?
-What problem are you solving?
-How will you solve that problem?
+
+Many Japanese restaurant owners have a positive attitude towards franchising and would do so given the opportunity. There is demand from foreign investors to franchise Japanese restaurants. However, only the large corporations who have an abundance of capital and power are currently franchising abroad. This platform gives the opportunity for smaller Japanese businesses and foreign investors to connect while being provided professional insight from experts who have experience in the franchising industry. Further, investors are able to begin a Japanese restaurant with a pre- established brand, instead of having to start from the beginning
 
 # 3. Problem Statement
 What is the real problem being addressed?
