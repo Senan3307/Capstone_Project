@@ -1,5 +1,5 @@
 # 1. Project Title
-Clear, descriptive project name
+Franchise Connect Platform by Senan Otsuka 
 
 # 2. Project Overview
 Your project's elevator pitch
