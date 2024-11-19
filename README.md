@@ -16,6 +16,9 @@ List the 3 ISBA subfields involved.
 Provide a short description of how each subfield is implemented.
 
 # 5. Solution Overview
+Created a dynamic website that allows investors to view franchisee information and details. 
+Technical Stack: No-code website creator (bubble.io). 
+
 Describe how you solved the problem in simple terms.
 Technical Stack: Bullet-point list of the technologies used:
 Programming Languages: (e.g., Python, SQL)
@@ -35,6 +38,8 @@ CRISP-DM
 SDLC
 
 # 7. Next Steps / Future Improvements
+One feature I wanted to implement on the website was an instant chat feature in which the investor could message the franchisee directly through our website. By doing this, we are able to create more user reliance on our website while having a more proprietary feature. Further, this would allow for a more seamless user experience for both our investor and franchisee as they would have one universal platform where they could connect. 
+
 Features that were planned but abandoned or scaled down.
 How can the project be deployed into production if the project still needs to be in production.
 What aspects can be scaled (e.g., throughput, adoption).
