@@ -29,36 +29,41 @@ Business analytics played a pivotal role in the success of the Franchise Connect
 Beyond quantitative data, qualitative research was equally important. By conducting surveys and interviews with Japanese restaurant owners, I gained critical insights into their needs and challenges. This research revealed essential services and functionalities that needed to be incorporated into the platform, such as tools for managing franchise applications, communication, and performance tracking. By leveraging business analytics to synthesize data from multiple sources, I was able to design a user-focused, data-driven website that effectively addresses the demands of both franchisors and franchisees, ensuring its relevance and success in the competitive market.
 
 # 5. Solution Overview
-Created a dynamic website that allows investors to view franchisee information and details. 
-Technical Stack: No-code website creator (bubble.io). 
+To solve the problem, I used a no-code approach with the Bubble platform to develop the Franchise Connect website. This allowed me to quickly design and build the application without extensive programming, focusing instead on user experience and functionality. I started by planning user flows and identifying the essential features through research and feedback. Using Bubble’s visual development environment, I implemented these features, iteratively testing and refining the application. Data storage and management were handled seamlessly through Bubble’s integration with AWS RDS, ensuring a secure and scalable backend.
 
-Describe how you solved the problem in simple terms.
-Technical Stack: Bullet-point list of the technologies used:
-Programming Languages: (e.g., Python, SQL)
-Frameworks: (e.g., Flask, Django)
-Data Storage: (e.g., MySQL, S3)
-Software/Tools: (e.g., Excel, DBeaver)
-APIs: (e.g., OpenAI)
-Hosting: Cloud/on-premise (e.g., AWS, Azure)
-Data: General description of data (sources, types)
+Technical Stack
+Programming Languages: No-code (Bubble's built-in logic)
+Frameworks: Bubble (No-code application development)
+Data Storage: AWS RDS (Relational Database Service)
+Software/Tools: JIRA (for project management)
+APIs: Bubble’s built-in API integrations
+Hosting: Cloud-based (Bubble-hosted, leveraging AWS)
+Data: User data from restaurants and investors, survey responses, market research data (quantitative and qualitative).
 
 # 6. Solution Details (Technical Terms)
-More in-depth technical explanation of the solution for peers/technical teams.
-Include relevant diagrams (e.g., ERD, Flowchart, Data Flow Diagram).
-Describe the methodology/framework used to build the solution. Example frameworks:
-CRISP-DM
-5-Step Analytics Framework
-SDLC
+The development of the Franchise Connect platform followed the SDLC framework, structured into four key stages: Planning and Requirement Gathering/Analysis, Design and Implementation, Testing, and Deployment. This approach ensured a systematic and efficient development process tailored to meet user and business needs.
+
+## Planning and Requirement Gathering/Analysis
+In the initial stage, I conducted extensive market research to analyze successful franchises in Japan and benchmarked against competitors. To supplement this, I carried out qualitative research, including surveys and interviews with Japanese restaurant owners, to gather insights into their specific needs. This step helped define the platform’s target user groups—investors and restaurant owners—and identify essential features such as user registration and franchise application management. User flowcharts were created to map out interactions and functionalities, serving as a blueprint for the subsequent design and implementation stages.
+
+## Design and Implementation
+Using the no-code development platform Bubble, I designed and implemented the platform's core functionalities. Bubble’s visual design tools enabled the creation of wireframes and mockups, which were transformed into a fully interactive application. CRUD operations were at the heart of the platform’s functionality, allowing users to register accounts, submit and manage franchise applications. Data storage was handled seamlessly through Bubble’s integration with AWS RDS, providing a secure and scalable backend. Additionally, third-party APIs were incorporated for features such as email notifications and external data synchronization, enhancing the platform’s capabilities.
+
+## Testing
+During the testing phase, I rigorously evaluated the platform’s functionalities to ensure alignment with user requirements and business goals. Various testing methods were employed, including unit testing for individual features and user acceptance testing to validate the platform's usability. Feedback collected during testing allowed for iterative refinements, addressing issues, and optimizing the user experience.
+
+## Deployment
+Finally, the platform was deployed using Bubble’s cloud-hosting capabilities, leveraging AWS for backend support. Deployment included a final round of checks to ensure scalability, security, and performance in a live environment. With this, the Franchise Connect platform was successfully launched, providing a robust and user-friendly application for investors and restaurant owners.
+
+By following this structured methodology and leveraging the no-code capabilities of Bubble along with AWS integration, the project achieved its goal of creating a dynamic and scalable platform tailored to its users' needs.
 
 # 7. Next Steps / Future Improvements
-One feature I wanted to implement on the website was an instant chat feature in which the investor could message the franchisee directly through our website. By doing this, we are able to create more user reliance on our website while having a more proprietary feature. Further, this would allow for a more seamless user experience for both our investor and franchisee as they would have one universal platform where they could connect. 
+During the development of the Franchise Connect platform, several features were initially planned but later scaled down or abandoned due to time constraints and technical limitations. One such feature was a chat functionality that would allow seamless communication between restaurant owners and investors within the platform. While this feature would have greatly enhanced user interaction, the complexity of implementing real-time messaging and integrating it with external chat services made it challenging to achieve within the timeline. Additionally, the goal of enabling users to finalize franchise contracts directly within the platform was considered, but due to legal and operational complexities, it was decided to scale this feature down to simply facilitating connections between the two parties, leaving contract finalization to be handled externally.
 
-Features that were planned but abandoned or scaled down.
-How can the project be deployed into production if the project still needs to be in production.
-What aspects can be scaled (e.g., throughput, adoption).
-Areas for improvement or what could be done differently in the future.
+Despite these setbacks, the platform is still ready for deployment into production with the core functionalities intact. The platform can be launched with the existing features, such as connecting restaurant owners and investors, managing applications, and displaying dashboards. Looking ahead, there are several areas for improvement. The chat feature could be revisited in the future, either by integrating a third-party messaging service or developing a custom real-time messaging system. Similarly, the feature for franchise contract finalization could be introduced as an external integration with e-signature services or contract generation tools, which would make the process more seamless without complicating the platform’s core functionalities. Continuous user feedback would be crucial for iterating and refining the platform, ensuring it evolves in line with user needs and market demands. By focusing on these improvements and implementing them incrementally, the platform can continue to grow and offer more value to both investors and restaurant owners.
 
 # 8. Retrospective
 
-Specific challenges encountered during the project and how they were addressed.
-New skills or insights gained throughout the project.
+During the development of the Franchise Connect platform, several specific challenges arose, primarily related to time management and the complexity of maintaining a balance between development speed and quality. One significant challenge was the temptation to develop for long hours without performing unit testing or checking for bugs regularly. Often, I would spend hours working on a feature, only to find that, by the end of the development session, issues had accumulated, which I had overlooked. This led to more significant problems down the line, as bugs or incomplete features would compound, making them harder to fix later. This experience highlighted the critical importance of unit testing and the need to test incrementally as development progresses. By implementing small, regular tests, I could catch issues early, preventing them from becoming larger problems. This approach helped maintain the quality of the platform and ensured smoother development overall.
+
+Through these challenges, I gained new insights and skills that were invaluable to the success of the project. Most notably, I learned the importance of incremental development—breaking tasks into smaller, manageable pieces and testing them consistently throughout the process. This iterative approach not only improved the quality of my work but also boosted my efficiency and confidence in addressing issues as they arose. Additionally, I deepened my understanding of the no-code development platform, Bubble, and its capabilities, along with cloud-based data storage using AWS RDS. These new skills and insights have significantly enhanced my project management and development approach, providing a solid foundation for future projects.
